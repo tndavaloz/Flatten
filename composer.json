@@ -1,0 +1,21 @@
+{
+  "name": "tndavaloz/php-flatten",
+  "description": "Flatten an array",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Nick Davaloz",
+      "email": "ndavaloz@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.6.0",
+    "phpunit/phpunit": "^5.5"
+  },
+  "autoload" : {
+    "psr-4": {
+      "Flattener\\": "src/"
+    }
+  }
+}
